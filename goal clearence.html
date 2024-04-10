@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAR</title>
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/var.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+    
+    <body>
+        <div id="container">
+            <div id="navbar"></div>
+            <div id="logo">OFFSIDE</div>
+            <div id="content">
+                <h2>GOAL CLEARENCE TECHNOLOGY</h2>
+                <br>
+                <h3>Goal clearence technology is instantly detrmining whether the whole ball has </h3>
+                <br>
+                <h3>crossed the goal-line.Goal clearence technology continues to be a staple in the </h3>
+                <br>
+                <h3>  football world since 2014.</h3>
+            </div>
+            <div id="icons">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div id="line1"></div>
+            <div id="line2"></div>
+
+            <div id="offside">
+                <video width="640" height="640" autoplay muted loop>
+                    <source src="assets/Goal-line technology approved for use in football.mp4" type="video/webm">
+                </video>
+    <form action="upload_c2.php" method="post" enctype="multipart/form-data">
+      <br>Select image to upload:<br>
+      <input name="file" type="file" onclick="selectFile()">
+      <input type="submit" name="upload_submit">
+    </form>
+    <script>
+      function selectFile() {
+        // create an input element of type file
+        var input = document.createElement('input');
+        input.type = 'file';
+        input.accept = 'image/*';
+        // when a file is selected
+        input.onchange = function(event) {
+          var file = event.target.files[0];
+          var type = file.type.split('/')[0];
+          if (type === 'image') {
+            // if the file is an image
+            var reader = new FileReader();
+            // when the image is loaded
+            reader.onload = function(event) {
+              // set the image source to the data URL
+              var img = document.getElementById('image');
+              img.src = event.target.result;
+              // show the image
+              img.style.display = 'block';
+            };
+            // read the image file as a data URL
+            reader.readAsDataURL(file);
+          } else {
+            // if the file is not an image, do nothing
+          }
+        };
+        // click the input element to open the file dialog
+        input.click();
+      }
+    </script>
+
+    <br><br>
+    <img id="image" style="max-width: 100%; max-height: 300px; right: 110%; top: calc(70% - 100px);" >
+            </div>
+        </div>
+    </body>
+    
+    
