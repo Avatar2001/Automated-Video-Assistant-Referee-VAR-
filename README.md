@@ -1,101 +1,40 @@
-# Automatic Video Assistant Referee (VAR) for Soccer
+<!-- Header -->
+<h1 align="center">Automatic Video Assistant Referee (VAR) for Soccer</h1>
 
-## Abstract
+<!-- Overview -->
+<h2 align="center">Overview</h2>
 
-The main idea of this project is to implement an automatic video assistant referee (VAR) in the soccer ball to improve the game flow and make fair decisions in the field. Automatic VAR helps to make the game flow more accurately and fairly in the football match. Our proposed system is a web-based application depending on Artificial intelligence Convolution Neural Networks to help the referee manage the match automatically and accurately. The proposed system can spot each player, ball, and field. It can detect the offside and the goal cases accurately.
+<p align="center">The project aims to implement an Automatic Video Assistant Referee (VAR) system in soccer matches to improve decision-making accuracy and fairness. It utilizes Convolutional Neural Networks (CNNs) for player, ball, and field detection, enabling automatic match management.</p>
 
-## ملخص
+<!-- How It Works -->
+<h2 align="center">How It Works</h2>
 
-الفكرة الرئيسية لهذا المشروع هي تطبيق حكم الفيديو المساعد في كرة القدم لتحسين المراقبة واتخاذ القرار العادل. تساعد تكنولوجيا الحكم المساعد في قيادة مسار مباراة كرة القدم. ونقترح في هذا المشروع بناء موقع الكتروني مبني على تقنيات الذكاء الاصطناعي مثل الشبكة العصبية الالتفافية لمساعدة حكم المباراة في ادارة المباراة بشكل تلقائي.
+<p align="center">The system employs deep learning techniques for real-time analysis of soccer matches. It detects players, the ball, and key events such as offside and goal situations. The implementation integrates state-of-the-art algorithms like YOLO (You Only Look Once) for efficient object detection.</p>
 
-## Table of Contents
+<!-- Tools -->
+<h3 align="center">Tools</h3>
 
-- [Chapter 1: Introduction](#chapter-1-introduction)
-- [Chapter 2: Background](#chapter-2-background)
-- [Chapter 3: Previous Work](#chapter-3-previous-work)
-- [Chapter 4: Design](#chapter-4-design)
-- [Chapter 5: Implementation](#chapter-5-implementation)
-- [Chapter 6: Conclusion](#chapter-6-conclusion)
-- [References](#references)
+<p align="center">- TensorFlow<br>
+- OpenCV<br>
+- YOLOv7</p>
 
-## Chapter 1: Introduction
+<!-- References -->
+<h2 align="center">References</h2>
 
-### 1.1 Overview
-Overview of the project.
-
-### 1.2 Motivation
-Motivation behind developing the Automatic VAR system.
-
-### 1.3 Objective
-Objectives of the project.
-
-### 1.4 Scope
-Scope of the project.
-
-### 1.5 Document Organization
-Structure of the document.
-
-## Chapter 2: Background
-
-### 2.1 Background
-Background information about the project.
-
-### 2.2 What is machine learning
-Explanation of machine learning.
-
-### 2.3 Neural Networks
-Overview of neural networks, including Recurrent Neural Networks and Convolutional Neural Networks.
-
-### 2.4 YOLO
-Description of YOLO (You Only Look Once) algorithm.
-
-### 2.5 Segmentation
-Explanation of segmentation techniques including Semantic and Instance Segmentation.
-
-## Chapter 3: Previous Work
-
-### 3.1 Related Work
-Overview of previous research in the field.
-
-### 3.2 Researchers papers
-List of relevant research papers.
-
-## Chapter 4: Design
-
-### 4.1 Design and Implementation constraints
-Constraints faced during design and implementation.
-
-### 4.2 Proposed model
-Description of the proposed model.
-
-### 4.3 Convolution Neural Networks
-Explanation of CNN architecture and GoogLeNet architecture.
-
-### 4.4 YOLO
-Details about YOLO architecture and Trainable Bag of Freebies.
-
-## Chapter 5: Implementation
-
-### 5.1 Tools
-Tools used for implementation.
-
-### 5.2 User interface
-Details about the user interface.
-
-### 5.3 Offside case
-Explanation of handling offside cases.
-
-### 5.4 Goal detection case
-Description of goal detection mechanism.
-
-## Chapter 6: Conclusion
-
-### 6.1 Conclusion
-Summary of the project.
-
-### 6.2 Future Work
-Areas for future development.
-
-## References
-
-List of references cited in the document.
+<ol>
+  <li>UEFA's refereeing organization</li>
+  <li>New deep learning techniques analyze athletes' decision-making</li>
+  <li>Machine Learning in Modeling High School Sport Concussion Symptom Resolve</li>
+  <li>An MLP-based player detection and tracking in broadcast soccer video</li>
+  <li>Video-Based Soccer Ball Detection in Difficult Situations</li>
+  <li>DeepPlayer-Track: Player and Referee Tracking with Jersey Color Recognition in Soccer</li>
+  <li>FootAndBall: Integrated Player and Ball Detector</li>
+  <li>Semi-Supervised Training to Improve Player and Ball Detection in Soccer</li>
+  <li>DETECTING OFFSIDE POSITION USING 3D RECONSTRUCTION</li>
+  <li>Automated Offside Detection by Spatio-Temporal Analysis of Football Videos</li>
+  <li>Virtual lines for offside situations analysis in football</li>
+  <li>Football and Computer Vision</li>
+  <li>Deep Learning-Based Football Player Detection in Videos</li>
+  <li>Dive Into Football Analytics with TensorFlow Object Detection API</li>
+  <li>YOLOv7 explanation and implementation from scratch</li>
+</ol>
