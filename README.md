@@ -1,5 +1,4 @@
-# Automatic Video Assistant Referee (VAR) for Soccer
-[![VAR Banner](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/f3dbdb6d-d79e-4fc4-a7ce-f164706d8954)]
+![VAR Banner](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/f3dbdb6d-d79e-4fc4-a7ce-f164706d8954)
 
 ## Overview
 
