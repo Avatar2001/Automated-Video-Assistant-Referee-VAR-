@@ -10,13 +10,12 @@ The system employs deep learning techniques for real-time analysis of soccer mat
 
 ### Tools
 
-- TensorFlow
 - OpenCV
 - YOLOv7
-- Pytorch: Pytorch is a fully featured framework for building deep learning models, which is commonly used in applications like image recognition and language processing.
-- Scikit-learn: Scikit-learn is a Python library used to implement various machine learning models for regression, classification, clustering, and statistical tools for analyzing these models.
-- Numpy: Numpy is the fundamental package for scientific computing in Python, providing a multidimensional array object and various derived objects.
-- Scikit-image: Scikit-image is a collection of algorithms for image processing, providing high-quality, peer-reviewed code written by an active community of volunteers.
+- Pytorch
+- Scikit-learn
+- Numpy
+- Scikit-image
 
 ## User Interface
 
