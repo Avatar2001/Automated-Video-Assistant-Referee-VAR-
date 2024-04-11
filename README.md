@@ -29,7 +29,6 @@ We have implemented a website application that takes photos from users and the p
 The code provided seems to be a part of an object detection system that detects objects in an image and assigns them team labels based on the color of their jerseys. There are several functions involved in this system:
 
 1. "remove background": Removes the background from the image using morphological operations and contour detection.
-![Offside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/99e9182c-2a70-445f-90f0-97ca22eeafab)
 2. "run inference": Resizes and pads the resulting image to a fixed size and applies further transformations.
 ![Offside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/99e9182c-2a70-445f-90f0-97ca22eeafab)
 3. "extract jersey colors": Extracts features related to the object's jersey color.
