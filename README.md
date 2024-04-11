@@ -1,4 +1,4 @@
-![image](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/f565d74a-91d1-411c-84aa-4c8e03ea6948)# Automatic Video Assistant Referee (VAR) for Soccer
+![(https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/98784f2d-e40c-4818-87cf-c843b4e9e7d0)]# Automatic Video Assistant Referee (VAR) for Soccer
 
 ## Overview
 
@@ -22,25 +22,25 @@ The system employs deep learning techniques for real-time analysis of soccer mat
 
 We have implemented a website application that takes photos from users and the picture goes to the model, and the decision is made. There are two cases: Offside or not, and The ball passed goal line or not. We used HTML, CSS, and JavaScript to build the website. The main functions in the website are to take a photo from the user and provide feedback on the decision regarding offside or goal.
 
-![Offside Example](![image](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/afa0cd95-700c-47da-9d46-898d9ce2265c))
+![Offside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/afa0cd95-700c-47da-9d46-898d9ce2265c)
 
 ## Offside Case
 
 The code provided seems to be a part of an object detection system that detects objects in an image and assigns them team labels based on the color of their jerseys. There are several functions involved in this system:
 
 1. "remove background": Removes the background from the image using morphological operations and contour detection.
-![Offside Example](![image](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/99e9182c-2a70-445f-90f0-97ca22eeafab))
+![Offside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/99e9182c-2a70-445f-90f0-97ca22eeafab)
 2. "run inference": Resizes and pads the resulting image to a fixed size and applies further transformations.
-![Offside Example](![image](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/99e9182c-2a70-445f-90f0-97ca22eeafab))
+![Offside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/99e9182c-2a70-445f-90f0-97ca22eeafab)
 3. "extract jersey colors": Extracts features related to the object's jersey color.
-![Offside Example](![image](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/c86cf8b0-905b-4db5-a497-5860d2b010c7))
+![Offside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/c86cf8b0-905b-4db5-a497-5860d2b010c7)
 4. "assign jersey labels": Assigns team labels (0 or 1) to each object based on their jersey colors.
 5. "plot results": Plots the original image and the predicted image with labels.
-![Offside Example](![image](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/8780ad7e-4f64-4cf8-a256-e058fa1c51c2))
+![Offside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/8780ad7e-4f64-4cf8-a256-e058fa1c51c2)
 The attacking team is determined by comparing the farthest positions of the players in each team.
 
 ### Example Image: Offside Case
-![Offside Example](![image](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/9c56e16d-6778-444a-a2c5-dc24f2630116))
+![Offside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/9c56e16d-6778-444a-a2c5-dc24f2630116)
 
 ## Goal Detection Case
 
@@ -51,8 +51,8 @@ The model architecture consists of several convolutional layers, followed by poo
 Once the model is trained, it can be used to classify new images as either a goal or not a goal by feeding the image into the model and getting a probability score between 0 and 1. The goal detection model has various potential applications, such as in sports analytics to automatically detect goals in soccer matches.
 
 ### Example Image: Goal Detection Case
-![Goal Detection Ofsside Example](![image](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/a87a2403-4904-4a35-823f-2cffd2c19a10))
-![Goal Detection Not Offside Example](![image](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/8ca1451d-f7b1-42aa-b89f-220dfba8a4ab))
+![Goal Detection Ofsside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/a87a2403-4904-4a35-823f-2cffd2c19a10))
+![Goal Detection Not Offside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/8ca1451d-f7b1-42aa-b89f-220dfba8a4ab))
 
 ## Conclusion
 
@@ -66,9 +66,9 @@ In conclusion, the video assistant referee is a significant technological advanc
 
 ## References
 
-- [UEFA's refereeing organization]([#](https://www.marca.com/en/football/international-football/2018/03/03/5a9ac695268e3e265d8b45af.html))
-- [New deep learning techniques analyze athletes' decision-making]([#](https://www.sciencedaily.com/releases/2017/03/170306092708.htm))
-- [Machine Learning in Modeling High School Sport Concussion Symptom Resolve]([#](https://journals.lww.com/acsm-msse/Fulltext/2019/07000/Machine_Learning_in_Modeling_High_School_Sport.2.aspx))
+- [UEFA's refereeing organization](https://www.marca.com/en/football/international-football/2018/03/03/5a9ac695268e3e265d8b45af.html)
+- [New deep learning techniques analyze athletes' decision-making](https://www.sciencedaily.com/releases/2017/03/170306092708.htm)
+- [Machine Learning in Modeling High School Sport Concussion Symptom Resolve](https://journals.lww.com/acsm-msse/Fulltext/2019/07000/Machine_Learning_in_Modeling_High_School_Sport.2.aspx)
 - [An MLP-based player detection and tracking in broadcast soccer video](#)
 - [Video-Based Soccer Ball Detection in Difficult Situations](#)
 - [DeepPlayer-Track: Player and Referee Tracking with Jersey Color Recognition in Soccer](#)
