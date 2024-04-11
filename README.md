@@ -1,4 +1,4 @@
-![(https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/98784f2d-e40c-4818-87cf-c843b4e9e7d0)]# Automatic Video Assistant Referee (VAR) for Soccer
+# Automatic Video Assistant Referee (VAR) for Soccer
 
 ## Overview
 
@@ -39,9 +39,10 @@ The code provided seems to be a part of an object detection system that detects 
 ![Offside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/8780ad7e-4f64-4cf8-a256-e058fa1c51c2)
 The attacking team is determined by comparing the farthest positions of the players in each team.
 
-### Example Image: Offside Case
+### Example Image: Offside Case Test
 ![Offside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/9c56e16d-6778-444a-a2c5-dc24f2630116)
 
+![Not Offside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/8ca1451d-f7b1-42aa-b89f-220dfba8a4ab)
 ## Goal Detection Case
 
 The goal detection model is a deep learning model that uses a convolutional neural network (CNN) to classify images as either a goal or not a goal. The model is trained on a dataset of images that show a ball either inside or outside the goalpost and learns to distinguish between the two classes based on patterns in the images.
@@ -49,10 +50,6 @@ The goal detection model is a deep learning model that uses a convolutional neur
 The model architecture consists of several convolutional layers, followed by pooling layers and fully connected layers. During training, the model is shown a set of labeled images and adjusts its weights to minimize the difference between its predictions and the true labels.
 
 Once the model is trained, it can be used to classify new images as either a goal or not a goal by feeding the image into the model and getting a probability score between 0 and 1. The goal detection model has various potential applications, such as in sports analytics to automatically detect goals in soccer matches.
-
-### Example Image: Goal Detection Case
-![Goal Detection Ofsside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/a87a2403-4904-4a35-823f-2cffd2c19a10))
-![Goal Detection Not Offside Example](https://github.com/Avatar2001/Automated-Assistant-Video-Referee-VAR-/assets/71982844/8ca1451d-f7b1-42aa-b89f-220dfba8a4ab))
 
 ## Conclusion
 
@@ -69,15 +66,15 @@ In conclusion, the video assistant referee is a significant technological advanc
 - [UEFA's refereeing organization](https://www.marca.com/en/football/international-football/2018/03/03/5a9ac695268e3e265d8b45af.html)
 - [New deep learning techniques analyze athletes' decision-making](https://www.sciencedaily.com/releases/2017/03/170306092708.htm)
 - [Machine Learning in Modeling High School Sport Concussion Symptom Resolve](https://journals.lww.com/acsm-msse/Fulltext/2019/07000/Machine_Learning_in_Modeling_High_School_Sport.2.aspx)
-- [An MLP-based player detection and tracking in broadcast soccer video](#)
-- [Video-Based Soccer Ball Detection in Difficult Situations](#)
-- [DeepPlayer-Track: Player and Referee Tracking with Jersey Color Recognition in Soccer](#)
-- [FootAndBall: Integrated Player and Ball Detector](#)
-- [Semi-Supervised Training to Improve Player and Ball Detection in Soccer](#)
-- [DETECTING OFFSIDE POSITION USING 3D RECONSTRUCTION](#)
-- [Automated Offside Detection by Spatio-Temporal Analysis of Football Videos](#)
-- [Virtual lines for offside situations analysis in football](#)
-- [Football and Computer Vision](#)
-- [Deep Learning-Based Football Player Detection in Videos](#)
-- [Dive Into Football Analytics with TensorFlow Object Detection API](#)
-- [YOLOv7 explanation and implementation from scratch](#)
+- [An MLP-based player detection and tracking in broadcast soccer video](https://ieeexplore.ieee.org/document/6413398)
+- [Video-Based Soccer Ball Detection in Difficult Situations](https://link.springer.com/chapter/10.1007/978-3-319-17548-5_2)
+- [DeepPlayer-Track: Player and Referee Tracking with Jersey Color Recognition in Soccer](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9739737)
+- [FootAndBall: Integrated Player and Ball Detector](https://www.researchgate.net/publication/340044925_FootAndBall_Integrated_Player_and_Ball_Detector)
+- [Semi-Supervised Training to Improve Player and Ball Detection in Soccer](https://openaccess.thecvf.com/content/CVPR2022W/CVSports/papers/Vandeghen_Semi-Supervised_Training_To_Improve_Player_and_Ball_Detection_in_Soccer_CVPRW_2022_paper.pdf)
+- [DETECTING OFFSIDE POSITION USING 3D RECONSTRUCTION](https://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=9030362&fileOId=9030364)
+- [Automated Offside Detection by Spatio-Temporal Analysis of Football Videos](https://dl.acm.org/doi/pdf/10.1145/3475722.3482796)
+- [Virtual lines for offside situations analysis in football](https://www.researchgate.net/publication/361073666_Virtual_lines_for_offside_situations_analysis_in_football)
+- [Football and Computer Vision](https://web.unibas.it/bloisi/corsi/progettivep/soccer-player-detection.html)
+- [Deep Learning-Based Football Player Detection in Videos](https://www.hindawi.com/journals/cin/2022/3540642/)
+- [Dive Into Football Analytics with TensorFlow Object Detection API](https://neptune.ai/blog/dive-into-football-analytics-with-tensorflow-object-detection-api)
+- [YOLOv7 explanation and implementation from scratch](https://www.kaggle.com/code/jobayerhossain/yolov7-explanation-and-implementation-from-scratch)
